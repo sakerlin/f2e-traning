@@ -28,7 +28,25 @@ CSS coding style
 		a{
 			color: #f00 ;
 		}
-		<a class="" href="xx">link</a>
+		<a href="xx">link</a>
+	```
+	- id :
+	```
+		#alink{
+			color: #f00 ;
+		}
+		<a id="alink" href="xx">link</a>
+		
+	```
+	- attribute :
+	```
+		[href] {
+			color: #f00 ;
+		}
+		[href="xx"] {
+			color:#00f;
+		}
+		<a id="alink" href="xx">link</a>
 	```
 	- 串接
 	```
