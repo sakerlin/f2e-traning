@@ -17,15 +17,15 @@ Standar HTML
     - doctype 必須是 HTML 文檔的第一行，位於 <html> 標籤之前。
     - doctype 不是 HTML 標籤；它是指示 web 瀏覽器關於頁面使用哪個 HTML 版本進行編寫的指令。 
     - html4 doctype
-    ```
+        ```
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-    ```
+         ```
     - html5 doctype
-    ```
-     <!doctype html>
-    ```
+        ```
+        <!doctype html>
+         ```
 * html lang
     - HTML Language Code Reference
     - 聲明網頁主要語言, 幫助瀏覽器及搜尋引擎辨視網頁
