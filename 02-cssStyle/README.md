@@ -100,6 +100,11 @@ CSS coding style
 	margin: top right bottom left
 ```
 * css 權重
+	- selector 串接多的 覆蓋串的少的
+	- selector 相同後面覆蓋前面
+	- inline > Embed > External Link = import
+	- <a href="http://cssspecificity.com/">參考 css specificity</a>
+	- <a href="">權重計算機</a>
 
 * 套用css 的方法
     - inline 
@@ -146,7 +151,7 @@ CSS coding style
 
 * coding rules
 	- 使用reset
-	- 避免使用id 做為選擇器(css selector)
+	- 避免使用id 做為 css selector (css 重用性)
 	- 避免使用float
 	- use External Link 
 	- 使用class 不要寫inline style
