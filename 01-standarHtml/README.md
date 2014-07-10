@@ -58,6 +58,10 @@ Standar HTML
 * inline element 
     - 不從新行開始
     - 可包含其他 inline element
+    - some  property doesn't apply
+        - height
+        - width
+        - margin and padding only left and right effect
     - 常見 inline element
     ```
      <i>, <em>, <a>,<br>, <img>,  <script>, <span>, <button>, <input>, <label>, <select>, <textarea>
