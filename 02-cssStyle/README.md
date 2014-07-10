@@ -15,6 +15,33 @@ CSS coding style
 			color: #f00;
 		}
 	```
+* css selector
+	- class : 
+	``` 
+		.link {  
+			color: #f00 ;
+		}
+		<a class="" href="xx">link</a>
+	```
+	- html tag :
+	```
+		a{
+			color: #f00 ;
+		}
+		<a class="" href="xx">link</a>
+	```
+	- 串接
+	```
+		.item a{ 
+			color: #f00;
+		}
+		<div class="item">
+			<a class="" href="xx">link</a>
+		</div>
+	```
+* css 屬性縮寫
+* css 權重
+
 * 套用css 的方法
     - inline 
     ```
@@ -64,4 +91,6 @@ CSS coding style
 	- 避免使用float
 	- use External Link 
 	- 使用class 不要寫inline style
+	- 為容易閱讀及方便diff 請每個屬性換行
+	- 使用module name space 避免混淆
      
