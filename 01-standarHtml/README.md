@@ -47,7 +47,7 @@ Standar HTML
     - <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/W3C_and_Internet_Explorer_box_models.svg/299px-W3C_and_Internet_Explorer_box_models.svg.png">(圖片來源<a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug">wikipedia</a>)
     - <a href="http://www.w3.org/TR/CSS2/box.html">參考w3c</a>
 * Block-level element
-    - 從行頭開始
+    - 從新行開始
     - 可包含其他 Block-level element 與 inline element
     - 常見 Block-level element
         
@@ -56,7 +56,13 @@ Standar HTML
     ```
     - 參考<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements">MDN</a>
 * inline element 
-*
+    - 不從新行開始
+    - 可包含其他 inline element
+    - 常見 inline element
+    ```
+     <i>, <em>, <a>,<br>, <img>,  <script>, <span>, <button>, <input>, <label>, <select>, <textarea>
+    ```
+    - 參考<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente">MDN</a>
 
 * codeing rule
     - tag use low case
