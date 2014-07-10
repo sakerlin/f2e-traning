@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="utf-8">
+    <title>Your page title</title>
+    <style>
+    	.ex {
+    		border: 1px solid #ccc;
+    		width: 200px;
+    		height:45px;
+    		line-height: 45px;
+    	}
+    	.exa .link{
+    		color: #f00;
+    	}
+    	.exb a{
+    		color: #0f0;
+    	}
+    	#link{
+    		color: #00f;
+    	}
+
+		.exd [href="xx"] {
+			color:#00f;
+		}
+		.exd [href="xxx"] {
+			color: #f00 ;
+			text-decoration: underline;
+		}
+		.exd [data-color] {
+			color: #ff0 ;
+			text-decoration: underline;
+		}
+    </style>
+</head>
+<body>  
+		<div class="ex exa">
+			<a class="link" href="xx">link a - class selector</a>
+		</div>
+		<div class="ex exb">
+			<a  href="xx">link b - html tag selector</a>
+		</div>
+		<div class="ex exc">
+			<a  id="link" href="xx">link c - id selector</a>
+		</div>
+		<div class="ex exd" style="height:auto">
+			<a  href="xx">link d - attribute selector a</a>
+			<a  href="xxx">link d - attribute  selectorb</a>
+			<span  data-color>link d - attribute selector c</span>
+		</div>
+		 
+</body>
+</html>
