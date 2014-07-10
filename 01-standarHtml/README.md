@@ -26,6 +26,7 @@ Standar HTML
         ```
         <!doctype html>
          ```
+    - 缺少 doctype ie 會進入 Quirks Mode
 * html lang
     - HTML Language Code Reference
     - 聲明網頁主要語言, 幫助瀏覽器及搜尋引擎辨視網頁
@@ -42,6 +43,10 @@ Standar HTML
      ```
      <meta charset="utf-8">
      ```
+* box mode
+    - <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/W3C_and_Internet_Explorer_box_models.svg/299px-W3C_and_Internet_Explorer_box_models.svg.png">
+* block,inline,indelin-block 
+
 * codeing rule
     - tag use low case
     - attrubute embrace with double quotes
