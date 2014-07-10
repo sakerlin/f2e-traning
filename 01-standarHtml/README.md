@@ -45,7 +45,12 @@ Standar HTML
      ```
 * box mode
     - <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/W3C_and_Internet_Explorer_box_models.svg/299px-W3C_and_Internet_Explorer_box_models.svg.png">
-* block,inline,indelin-block 
+* Block-level element
+    - 從行頭開始
+    - 可包含其他 Block-level element 與 inline element
+    - 參考<a href="">MDN</a>
+* inline element 
+*
 
 * codeing rule
     - tag use low case
