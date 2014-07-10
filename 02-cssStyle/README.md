@@ -21,7 +21,7 @@ CSS coding style
 		.link {  
 			color: #f00 ;
 		}
-		<a class="" href="xx">link</a>
+		<a class="link" href="xx">link</a>
 	```
 	- html tag :
 	```
@@ -57,7 +57,48 @@ CSS coding style
 			<a class="" href="xx">link</a>
 		</div>
 	```
+* css color value
+	- hex or string
+	- hex : #336699,#f00 ...
+	- string : red, white, black... <a href="http://www.w3schools.com/cssref/css_colornames.asp">參考 w3c school</a>
+	
 * css 屬性縮寫
+	- ex: 
+```
+	.block{
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+    =>
+	.block {
+		margin: 10px;
+	},
+	
+	.block2{
+		margin-top: 10px;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+	}
+    =>
+	.block2{
+		margin: 10px 20px;
+	},
+	.block3{
+		margin-top: 10px;
+		margin-right: 20px;
+		margin-bottom: 30px;
+		margin-left: 40px;
+	}
+    =>
+	.block3{
+		margin: 10px 20px 30px 40px;
+	}
+	
+	margin: top right bottom left
+```
 * css 權重
 
 * 套用css 的方法
