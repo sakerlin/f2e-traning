@@ -44,11 +44,17 @@ Standar HTML
      <meta charset="utf-8">
      ```
 * box mode
-    - <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/W3C_and_Internet_Explorer_box_models.svg/299px-W3C_and_Internet_Explorer_box_models.svg.png">
+    - <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/W3C_and_Internet_Explorer_box_models.svg/299px-W3C_and_Internet_Explorer_box_models.svg.png">(圖片來源<a href="http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug">wikipedia</a>)
+    - <a href="http://www.w3.org/TR/CSS2/box.html">參考w3c</a>
 * Block-level element
     - 從行頭開始
     - 可包含其他 Block-level element 與 inline element
-    - 參考<a href="">MDN</a>
+    - 常見 Block-level element
+        
+    ```
+         <p>,<form>,<pre>,<h1>~<h6>,<table>,<div>,<hr>,<ol>
+    ```
+    - 參考<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements">MDN</a>
 * inline element 
 *
 
