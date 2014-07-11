@@ -1,6 +1,6 @@
 ## Tool prepare
 - F2E
-    -front end engineer
+    - front end engineer
 - Browser and develop tool  
     - firefox => firebug
     - chrome => DevTools
