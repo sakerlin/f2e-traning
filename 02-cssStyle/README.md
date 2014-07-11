@@ -163,7 +163,11 @@ CSS coding style
 </tr>
 </tbody></table>
 
-
+* css position 屬性
+	- static : 顯示在預設位置 (left, right ,top, bottom 無作用)
+	- absolute : 顯示在指定位置 依left, right ,top, bottom 設定, 隨頁面捲動
+	- relative : 顯示在指定位置 依left, right ,top, bottom 設定
+	- fix : 顯示在指定位置 不隨頁面捲動
 * css 權重
 	- selector 串接多的 覆蓋串的少的
 		```
