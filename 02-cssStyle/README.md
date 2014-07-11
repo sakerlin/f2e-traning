@@ -119,50 +119,48 @@ CSS coding style
 	- background-position <a href="http://www.w3school.com.cn/cssref/pr_background-position.asp">參考w3c school</a>
 
 	<table class="dataintable">
-<tbody><tr>
-<th>值</th>
-<th>描述</th>
-</tr>
+	<tbody><tr>
+	<th>值</th>
+	<th>描述</th>
+	</tr>
 
-<tr>
-<td>
-<ul>
-<li>top left</li>
-<li>top center</li>
-<li>top right</li>
-<li>center left</li>
-<li>center center</li>
-<li>center right</li>
-<li>bottom left</li>
-<li>bottom center</li>
-<li>bottom right</li>
-</ul>
-</td>
-<td>
-<p>如果您僅規定了一個關鍵詞，那麼第二個值將是"center"。</p>
-<p>默認值：0% 0%。</p>
-</td>
-</tr>
-
-<tr>
-<td>x% y%</td>
-<td>
-<p>第一個值是水平位置，第二個值是垂直位置。</p>
-<p>左上角是 0% 0%。右下角是 100% 100%。</p>
-<p>如果您僅規定了一個值，另一個值將是 50%。</p>
-</td>
-</tr>
-
-<tr>
-<td>xpos ypos</td>
-<td>
-<p>第一個值是水平位置，第二個值是垂直位置。</p>
-<p>左上角是 0 0。單位是像素 (0px 0px) 或任何其他的 CSS 單位。</p>
-<p>如果您僅規定了一個值，另一個值將是50%。</p>
-<p>您可以混合使用 % 和 position 值。</p>
-</td>
-</tr>
-</tbody></table>
+	<tr>
+	<td>
+	<ul>
+	<li>top left</li>
+	<li>top center</li>
+	<li>top right</li>
+	<li>center left</li>
+	<li>center center</li>
+	<li>center right</li>
+	<li>bottom left</li>
+	<li>bottom center</li>
+	<li>bottom right</li>
+	</ul>
+	</td>
+	<td>
+	<p>如果您僅規定了一個關鍵詞，那麼第二個值將是"center"。</p>
+	<p>默認值：0% 0%。</p>
+	</td>
+	</tr>
+	<tr>
+	<td>x% y%</td>
+	<td>
+	<p>第一個值是水平位置，第二個值是垂直位置。</p>
+	<p>左上角是 0% 0%。右下角是 100% 100%。</p>
+	<p>如果您僅規定了一個值，另一個值將是 50%。</p>
+	</td>
+	</tr>
+	<tr>
+	<td>xpos ypos</td>
+	<td>
+	<p>第一個值是水平位置，第二個值是垂直位置。</p>
+	<p>左上角是 0 0。單位是像素 (0px 0px) 或任何其他的 CSS 單位。</p>
+	<p>如果您僅規定了一個值，另一個值將是50%。</p>
+	<p>您可以混合使用 % 和 position 值。</p>
+	</td>
+	</tr>
+	</tbody></table>
 
 * css position 屬性
 	- static : 顯示在預設位置 (left, right ,top, bottom 無作用)
