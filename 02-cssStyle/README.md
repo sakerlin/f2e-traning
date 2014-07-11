@@ -118,7 +118,7 @@ CSS coding style
 		```
 	- background-position <a href="http://www.w3school.com.cn/cssref/pr_background-position.asp">參考w3c school</a>
 
-		<table class="dataintable">
+	<table class="dataintable">
 <tbody><tr>
 <th>值</th>
 <th>描述</th>
