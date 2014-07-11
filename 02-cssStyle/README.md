@@ -58,8 +58,9 @@ CSS coding style
 		</div>
 	```
 * css color value
+	- #{RGB}
 	- hex or string
-	- hex : #336699,#f00 ...
+	- hex : #336699, #f00 ...
 	- string : red, white, black... <a href="http://www.w3schools.com/cssref/css_colornames.asp">參考 w3c school</a>
 	
 * css 屬性縮寫
@@ -165,7 +166,14 @@ CSS coding style
 
 * css 權重
 	- selector 串接多的 覆蓋串的少的
+		```
+		div a{} > a{}
+		```
 	- selector 相同後面覆蓋前面
+		```
+		a{ color:#f00;}
+		a{ color:#0f0;}
+		```
 	- inline > Embed > External Link = import
 	- <a href="http://cssspecificity.com/">參考 css specificity</a>
 	- <a href="">權重計算機</a>
